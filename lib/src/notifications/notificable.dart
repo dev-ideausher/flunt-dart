@@ -3,7 +3,8 @@ import 'package:flunt_dart/src/notifications/notification.dart';
 class Notifiable {
   final List<Notification> _notifications;
 
-  Notifiable() : _notifications = List<Notification>();
+  Notifiable() : _notifications = [];
+
 
   List<Notification> forProperty(String property) {
     var listWhere =
